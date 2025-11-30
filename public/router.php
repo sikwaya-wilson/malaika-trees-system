@@ -14,8 +14,9 @@ switch ($page) {
     case 'trees_create':
         require_once "../views/trees/add.php";
         break;
-    
+
     default:
         require_once "../views/dashboard.php";
         break;
 }
+
